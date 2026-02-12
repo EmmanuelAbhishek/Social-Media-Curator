@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Database files (except those in data directory)
+*.sqlite
+*.sqlite3
+!src/social_media_curator/data/*.db
+
+# Log files
+*.log
+!application.log
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Test output
+test_results/
+coverage/
+
+# Build output
+build/
+dist/
+egg-info/
+
+# Cache
+.cache/
+
+# Temporary files
+temp*
+*.tmp
+
+# Python cache
+.pytest_cache/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
